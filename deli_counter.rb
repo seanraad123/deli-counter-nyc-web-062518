@@ -7,5 +7,4 @@ def line(line_list)
     str = "The line is currently: "
     line_list.each_with_index{|name, number| str += "#{number}. #{name} "}
   end
-  puts str
 end
