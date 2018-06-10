@@ -1,5 +1,5 @@
 # Write your code here.
-katz_deli = []
+katz_deli = ["sean"]
 
 def line(line_list)
   if line_list.length < 1
