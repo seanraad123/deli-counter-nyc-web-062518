@@ -21,8 +21,7 @@ def take_a_number(current_in_line, new_person)
   else
     current_in_line.push(new_person)
     new_person_line_number = current_in_line.index(new_person)
-    puts a+1
-    #puts "Welcom, #{new_person}. You are "
+    puts "Welcome, #{new_person}. You are #{new_person_line_number+1} in line."
   end
 end
 
