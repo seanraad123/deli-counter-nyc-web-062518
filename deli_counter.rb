@@ -1,8 +1,5 @@
 # Write your code here.
 
-#katz_deli = ["bla", "doode", "grr"]
-
-
 def line(line_list)
   if line_list.length == 0
     puts "The line is currently empty."
@@ -34,4 +31,3 @@ def now_serving(current_in_line)
     puts "Currently serving #{up_next}."
   end
 end
-#take_a_number(katz_deli, "steve")
