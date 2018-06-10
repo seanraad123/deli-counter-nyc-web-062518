@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line
-  line_list = []
+  line_list = ["jeff"]
   if line_list.length < 1
     print "The line is currently empty."
   else
