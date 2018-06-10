@@ -11,4 +11,3 @@ def line(line_list)
   return str
 end
 
-line(katz_deli)
