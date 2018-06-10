@@ -19,7 +19,7 @@ def take_a_number(current_in_line, new_person)
     puts "Welcome, #{new_person}. You are number 1 in line."
     current_in_line.push(new_person)
   else
-    current_in_line.push(new_person)
+    current_in_line.push(new_person+1)
     a = current_in_line.index(new_person)
     puts a
     #puts "Welcom, #{new_person}. You are "
