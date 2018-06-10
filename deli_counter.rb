@@ -1,10 +1,10 @@
 # Write your code here.
-line = []
+katz_deli = []
 
 def line(line_list)
   if line_list.length < 1
     puts "The line is currently empty."
   else
-    puts line_list
+    puts "The line is currently line_list
   end
 end
