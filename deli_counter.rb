@@ -25,4 +25,13 @@ def take_a_number(current_in_line, new_person)
   end
 end
 
+
+def now_serving(current_in_line)
+  if current_in_line.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    up_next = current_in_line.shift
+    puts "Hi"
+  end
+end
 #take_a_number(katz_deli, "steve")
