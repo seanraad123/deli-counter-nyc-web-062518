@@ -1,6 +1,6 @@
 # Write your code here.
 
-katz_deli = []
+katz_deli = ["bla", "doode", "grr"]
 
 
 def line(line_list)
