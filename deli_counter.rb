@@ -1,10 +1,10 @@
 # Write your code here.
 line = []
 
-def line(line)
-  if line.length < 1
+def line(line_list)
+  if line_list.length < 1
     print "The line is currently empty."
   else
-    print line
+    print line_list
   end
 end
