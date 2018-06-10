@@ -1,6 +1,6 @@
 # Write your code here.
 
-katz_deli = ["bla", "doode", "grr"]
+#katz_deli = ["bla", "doode", "grr"]
 
 
 def line(line_list)
@@ -14,4 +14,4 @@ def line(line_list)
 end
 
 
-line(katz_deli)
+#line(katz_deli)
