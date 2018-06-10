@@ -16,7 +16,7 @@ end
 
 def take_a_number(current_in_line, new_person)
   if current_in_line.length == 0
-    puts "Welcome #{new_person}. You are number 1 in line"
+    puts "Welcomem #{new_person}. You are number 1 in line"
     current_in_line.push(new_person)
   else
 
