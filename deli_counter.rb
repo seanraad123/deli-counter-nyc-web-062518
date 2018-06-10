@@ -26,6 +26,4 @@ def take_a_number(current_in_line, new_person)
   end
 end
 
-
-
-#line(katz_deli)
+take_a_number(katz_deli, "steve")
