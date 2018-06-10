@@ -31,7 +31,7 @@ def now_serving(current_in_line)
     puts "There is nobody waiting to be served!"
   else
     up_next = current_in_line.shift
-    puts "Hi"
+    puts "Currently serving #{up_next}."
   end
 end
 #take_a_number(katz_deli, "steve")
