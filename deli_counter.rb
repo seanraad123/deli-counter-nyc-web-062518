@@ -13,8 +13,10 @@ def line(line_list)
   puts str
 end
 
-array_of_names.each_with_index{|name, room| empty_array.push("Hello, #{name}! You'll be assigned to room #{room +1}!")}
 
+#array_of_names.each_with_index{|name, room| empty_array.push("Hello, #{name}! You'll be assigned to room #{room +1}!")}
+
+'''
 
 
 var str = "The line is currently: "
@@ -25,3 +27,4 @@ for (var o of line) {
 str = str.slice(0, -2);
 return (str)
 }
+'''
