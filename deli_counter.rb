@@ -6,4 +6,5 @@ def line(line_list)
     puts "The line is currently empty."
   else
     puts line_list
+  end
 end
