@@ -9,7 +9,7 @@ def line(line_list)
   else
     str = "The line is currently: "
     line_list.each_with_index{|name, number| str += "#{number+1}. #{name} "}
-    str.slice[0...-1]
+    str[0...-1]
     puts str
   end
 end
