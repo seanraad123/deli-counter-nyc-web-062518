@@ -6,9 +6,9 @@ def line(line_list)
     puts "The line is currently empty."
   else
     str = "The line is currently: "
-    for i in line_list
+    #for i in line_list
       line_list.each_with_index{|name, number| str += "#{number}. #{name}"}
-    end
+    #end
   end
 end
 
