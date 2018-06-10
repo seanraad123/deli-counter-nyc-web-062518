@@ -7,7 +7,7 @@ def line(line_list)
   else
     str = "The ling is currently: "
     for i in line_list
-     line_list.each_with_index{|name, number| str += "#{number+1}. #{name}"}
+     line_list.each_with_index{|name, number| str += "#{number}. #{name}"}
     end
   end
   puts str
