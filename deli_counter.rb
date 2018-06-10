@@ -11,3 +11,4 @@ def line(line_list)
   puts str
 end
 
+line(katz_deli)
