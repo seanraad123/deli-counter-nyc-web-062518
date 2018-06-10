@@ -1,5 +1,4 @@
 # Write your code here.
-katz_deli = ["Logan", "Avi", "Spencer"]
 
 def line(line_list)
   if line_list.length == 0
@@ -8,5 +7,5 @@ def line(line_list)
     str = "The line is currently: "
     line_list.each_with_index{|name, number| str += "#{number}. #{name} "}
   end
-  return str
+  puts str
 end
