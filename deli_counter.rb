@@ -5,6 +5,22 @@ def line(line_list)
   if line_list.length < 1
     puts "The line is currently empty."
   else
-    puts line_list
+    str = "The ling is currently: "
+    for i in line_list
+     line_list.each_with_index{|name, number| str += "#{number}. #{name}"}
+   end
   end
 end
+
+array_of_names.each_with_index{|name, room| empty_array.push("Hello, #{name}! You'll be assigned to room #{room +1}!")}
+
+
+
+var str = "The line is currently: "
+for (var o of line) {
+  str += (`${parseInt(line.indexOf(o)+1)}. ${o}, `)
+
+}
+str = str.slice(0, -2);
+return (str)
+}
