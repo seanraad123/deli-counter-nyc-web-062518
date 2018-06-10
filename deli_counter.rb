@@ -7,7 +7,6 @@ def line(line_list)
   else
     str = "The line is currently: "
     for i in line_list
-      puts "a"
       line_list.each_with_index{|name, number| str += "#{number}. #{name}"}
     end
   end
