@@ -20,6 +20,8 @@ def take_a_number(current_in_line, new_person)
     current_in_line.push(new_person)
   else
     current_in_line.push(new_person)
+    puts "Welcom, #{new_person}. You are "
+
   end
 end
 
