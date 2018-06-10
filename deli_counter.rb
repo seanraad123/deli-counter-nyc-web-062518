@@ -1,6 +1,6 @@
 # Write your code here.
 
-katz_deli = ["bla", "doode", "grr"]
+#katz_deli = ["bla", "doode", "grr"]
 
 
 def line(line_list)
@@ -25,4 +25,4 @@ def take_a_number(current_in_line, new_person)
   end
 end
 
-take_a_number(katz_deli, "steve")
+#take_a_number(katz_deli, "steve")
