@@ -14,4 +14,8 @@ def line(line_list)
 end
 
 
+def take_a_number(current_in_line, string_of_new_person)
+
+end
+
 #line(katz_deli)
