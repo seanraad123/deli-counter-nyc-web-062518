@@ -17,6 +17,9 @@ end
 def take_a_number(current_in_line, new_person)
   if current_in_line.length == 0
     current_in_line.push(new_person)
+  else
+
+  end
 end
 
 #line(katz_deli)
