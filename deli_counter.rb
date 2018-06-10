@@ -8,5 +8,3 @@ def line
     print line_list
   end
 end
-
-line
