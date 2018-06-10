@@ -10,7 +10,6 @@ def line(line_list)
      puts line_list.each_with_index{|name, number| str += "#{number}. #{name}"}
     end
   end
-  puts str
 end
 
 line(katz_deli)
