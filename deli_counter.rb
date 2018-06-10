@@ -8,8 +8,9 @@ def line(line_list)
     str = "The ling is currently: "
     for i in line_list
      line_list.each_with_index{|name, number| str += "#{number}. #{name}"}
-   end
+    end
   end
+  puts str
 end
 
 array_of_names.each_with_index{|name, room| empty_array.push("Hello, #{name}! You'll be assigned to room #{room +1}!")}
