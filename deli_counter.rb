@@ -14,8 +14,9 @@ def line(line_list)
 end
 
 
-def take_a_number(current_in_line, string_of_new_person)
-
+def take_a_number(current_in_line, new_person)
+  if current_in_line.length == 0
+    current_in_line.push(new_person)
 end
 
 #line(katz_deli)
